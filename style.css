@@ -1,0 +1,151 @@
+
+
+/*  navbar started  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(83, 172, 244);
+    
+}
+nav div ul{
+    display:flex;
+    list-style: none;
+    padding-left: 0px; 
+}
+ul .Nav_items{
+    padding:5px;
+    background-color: rgb(83, 172, 244);
+    margin:2px;
+    font-weight: 700;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid  transparent;
+    
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+.nav_link:hover{
+    color:rgb(83, 168, 238);
+}
+ul .Nav_items:hover{
+    border: 2px solid  rgb(98, 170, 230);
+   font-weight: 700;
+    color: rgb(83, 168, 238);
+   background-color: rgb(246, 249, 251);
+}
+
+#logo{
+    background-color: white;
+}
+
+/*  nav bar ended  */
+
+/*  intrsoduction part started  */
+
+#Introduction{
+    margin: 10% 2% 5% 2%;
+    padding-bottom:12% ;
+    border-bottom: 3px solid rgb(83, 172, 244);
+ 
+}
+#Introduction div{
+    margin:15px 0px;
+    
+}
+#Name_section_left{
+   
+
+    margin: 5px;
+    padding-top: 5%;
+    
+}
+#Name_section p{
+    font-weight: 500;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+#Name_section h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 75px;
+}
+#Name_section h1 span{
+    color:rgb(75, 163, 236);
+}
+
+#Name_section h4 { 
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+}
+/* #social_icon button{
+   background-color:rgb(75, 163, 236) ;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+ font-weight: 600;
+ text-decoration: none;
+
+}
+#social_icon{
+    font-size: 20px;
+}
+#social_icon button:hover{
+    color: white;
+}
+#social_icon #mail_button{
+    text-decoration: none;
+    color: white;
+} */
+
+
+
+/*  introduction ended here  */
+
+/*  about section started  */
+
+#About{ 
+    margin: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#About_div{
+    background-color:rgb(75, 163, 236)  ;
+    padding: 20px;
+    border-radius: 20px;
+}
+#About_div h1{
+    text-align: center;
+    /* margin: auto 0px; */
+}
+#About_div p{
+    font-size: 18px;
+}
+#CV{
+    text-decoration: none;
+    color: black;
+}
+
+#Image_Section_right{
+    text-align: center;
+}
+
+#img_social{
+    height: 22px;
+}
+
+#Image_Section_right img{
+    height:30vw;
+    border-radius: 75%;
+    /* margin:5%  2% 0 0; */
+    border: 15px solid rgb(75, 163, 236) ;
+    
+}
+
+
+
